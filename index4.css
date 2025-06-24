@@ -1,0 +1,29 @@
+body
+{
+    background-color: rgba(41, 86, 149, 0.404);
+    font-family:Arial, Helvetica, sans-serif
+      }
+
+header {
+  background-color: rgb(13, 19, 97);
+  height: 70px;
+  h1{
+  color: aliceblue;
+  text-align: center}
+ }
+
+#grupos{
+  width: 1000px;
+  margin: auto;
+}
+
+footer {
+  background-color: rgb(13, 19, 97);
+  color: aliceblue;
+  text-align: center
+ }
+ .contenedor{
+  display: flex;
+  
+
+ }

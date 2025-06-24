@@ -1,0 +1,64 @@
+body
+{
+    background-color: rgba(128, 141, 161, 0.404);
+    font-family:Arial, Helvetica, sans-serif
+      }
+
+#container{
+  width: 1000px;
+  margin: auto;
+
+
+
+}
+
+header {
+  background-color: rgb(97, 13, 13);
+  height: 70px;
+  h1{
+  color: aliceblue;
+  text-align: center}
+ }
+
+nav{
+  float: left;
+  margin: 12px;
+  font-size: 10px
+  }
+
+.clearfix{
+clear:both; 
+} 
+
+#content{
+  float: left;
+  width: 80%;
+  border: cornflowerblue;
+}
+aside{
+  float: right;
+  width: 20%;
+  text-align:justify ;
+  h3{
+    color:rgb(59, 59, 79);}
+  h5{
+    color:cornflowerblue 
+  }  
+  
+    }
+
+.article{
+width: 80%;
+text-align:justify ;
+}
+
+footer {
+  background-color: rgb(97, 13, 13);
+  color: aliceblue;
+  text-align: center
+ }
+
+ #Formulario{
+  display:flex
+  flex-direction:column-reverse:
+ }
