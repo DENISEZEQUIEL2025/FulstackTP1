@@ -1,0 +1,82 @@
+body
+{
+    background-color: rgba(255, 255, 255, 0.404);
+    font-family:Arial, Helvetica, sans-serif
+      }
+
+#container{
+  width: 1300px;
+  margin: auto;
+
+
+
+}
+
+header {
+  background-color: rgba(159, 37, 37, 0.404);
+  height: 70px;
+  h1{
+  color: aliceblue;
+  text-align: center}
+ }
+
+
+nav{
+display: flex;
+gap: 80px;
+
+  }
+
+a{color: pink;
+text-decoration: none;}
+a:hover{
+  color: black;
+}
+
+
+
+.clearfix{
+clear:both; 
+} 
+
+#content{
+  float: left;
+  width:80%;
+  border: cornflowerblue;
+    text-align:justify ;
+  h1{ width: 500;
+
+  }
+  
+}
+aside{
+  float: right;
+  width: 20%;
+  text-align:justify ;
+  h3{
+    color:rgb(59, 59, 79);}
+  h5{
+    color:cornflowerblue 
+  }  
+  h1{ color: red;}
+  
+    }
+
+.article{
+width: 80%;
+text-align:justify ;
+}
+
+footer {
+  display: flex;
+  background-color: rgba(159, 37, 37, 0.404);
+    color: aliceblue;
+  text-align: center;
+ padding: 40px;
+ gap: 20px;
+
+ }
+
+ #Formulario{
+  flex-direction:column-reverse¨;
+ }
