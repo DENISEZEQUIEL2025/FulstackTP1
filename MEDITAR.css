@@ -1,0 +1,129 @@
+body
+{
+    background-color: rgba(251, 251, 251, 0.404);
+    font-family:Arial, Helvetica, sans-serif
+      }
+
+#container{
+  width:1300px;;
+  margin: auto;
+
+
+
+}
+
+header {
+  background-color: rgba(159, 37, 37, 0.404);
+  height: 70px;
+  h1{
+  color: aliceblue;
+  text-align: center}
+ }
+
+nav{
+  float: left;
+  margin: 12px;
+  font-size: 10px
+  }
+a{color: pink;
+text-decoration: none;}
+a:hover{
+  color: black;}
+
+.clearfix{
+clear:both; 
+} 
+
+#content{
+  float: left;
+  width: 80%;
+  border: cornflowerblue;
+}
+
+.article{
+width: 120%;
+text-align:justify ;
+}
+
+footer {
+  display: flex;
+  background-color: rgba(159, 37, 37, 0.404);
+    color: aliceblue;
+  text-align: center;
+ padding: 40px;
+ gap: 20px;
+
+ }
+
+ #Formulario{
+  display:flex
+ }
+
+aside{
+  float: right;
+  width: 20%;
+  text-align:justify ;
+  h3{
+    color:rgb(59, 59, 79);}
+  h5{
+    color:cornflowerblue 
+  }  
+  h1{ color: red;}
+
+    h2{
+    color:cornflowerblue 
+  }  
+  
+    }
+
+/* Estilo para los inputs y textarea */
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff; /* campo blanco */
+  font-size: 16px;
+}
+
+/* Estilo para el botón rosado */
+button {
+  background-color: #ff69b4; /* rosa */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff85c1; /* tono más claro al pasar el mouse */
+}
+
+/* Lista de tareas */
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#taskList li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.Comentarios{
+  h2{
+    color: #d46ea1;
+  }
+
+  p{color: grey;  }
+}
